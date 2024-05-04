@@ -1,4 +1,4 @@
-module github.com/draco121/authorizationservice
+module sentry
 
 go 1.22.2
 
