@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"github.com/draco121/authorizationservice/controllers"
-	"github.com/draco121/common/utils"
+	"github.com/draco121/horizon/utils"
 	"github.com/gin-gonic/gin"
+	"sentry/controllers"
 )
 
 func RegisterRoutes(controllers controllers.Controllers, router *gin.Engine) {

@@ -2,9 +2,9 @@ package repository
 
 import (
 	"context"
-	"github.com/draco121/common/constants"
-	"github.com/draco121/common/jwt"
-	"github.com/draco121/common/models"
+	"github.com/draco121/horizon/constants"
+	"github.com/draco121/horizon/jwt"
+	"github.com/draco121/horizon/models"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 

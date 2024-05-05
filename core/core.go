@@ -2,12 +2,12 @@ package core
 
 import (
 	"context"
-	"github.com/draco121/authorizationservice/repository"
-	"github.com/draco121/common/constants"
-	"github.com/draco121/common/models"
-	"github.com/draco121/common/utils"
+	"github.com/draco121/horizon/constants"
+	"github.com/draco121/horizon/models"
+	"github.com/draco121/horizon/utils"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
+	"sentry/repository"
 	"time"
 )
 

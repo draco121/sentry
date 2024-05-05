@@ -1,7 +1,7 @@
 package core
 
 import (
-	"github.com/draco121/common/constants"
+	"github.com/draco121/horizon/constants"
 	"slices"
 )
 

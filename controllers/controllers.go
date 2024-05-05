@@ -1,11 +1,11 @@
 package controllers
 
 import (
-	"github.com/draco121/authorizationservice/core"
-	"github.com/draco121/common/constants"
-	"github.com/draco121/common/models"
+	"github.com/draco121/horizon/constants"
+	"github.com/draco121/horizon/models"
 	"github.com/gin-gonic/gin"
 	"net/http"
+	"sentry/core"
 )
 
 type Controllers struct {
