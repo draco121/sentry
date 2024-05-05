@@ -25,4 +25,4 @@ COPY --from=builder /app/sentry /app/sentry
 EXPOSE 80
 
 # Command to run the executable
-CMD ["./authorizationservice"]
+CMD ["./sentry"]
